@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Clickatell",
+	"description": "This is a repository of clickatell APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/clickatell.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://clickatell.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Clickatell",
+			"x-api-slug": "clickatell",
+			"description": "Clickatell is a leading company in Global Mobile Messaging. You can reach 1000+ global networks with 1 API using Clickatells Bulk SMS Gateway.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg",
+			"humanURL": "http://clickatell.com",
+			"baseURL": "http://api.clickatell.com/http/",
+			"tags": "Clickatell",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Clickatell",
+	"include": [
+		{
+			"name": "Clickatell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/apis.yaml"
+		}
+	]
+}

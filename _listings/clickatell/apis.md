@@ -7,42 +7,36 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clicka
 x-kinRank: "8"
 x-alexaRank: "105051"
 tags: Clickatell
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Clickatell SMS Send Message
-  x-api-slug: clickatell-sms
-  description: The Clickatell HTTP/S API provides just about the simplest way of programming
-    your connection to Clickatell, and if you need to overcome a firewall problem
-    HTTP/S is almost certainly your best solution.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg
-  humanURL: http://clickatell.com
-  baseURL: http://api.clickatell.com/http//sendmsg/
-  tags: Messaging
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/sendmsg-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/sendmsg-get-openapi.md
-- name: Clickatell SMS
-  x-api-slug: clickatell-sms
+- name: Clickatell SMS - Send Message
+  x-api-slug: sendmsg-get
   description: The Clickatell HTTP/S API provides just about the simplest way of programming
     your connection to Clickatell, and if you need to overcome a firewall problem
     HTTP/S is almost certainly your best solution.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg
   humanURL: http://clickatell.com
   baseURL: http://api.clickatell.com/http/
-  tags: Clickatell
+  tags: Applications, File Transfer, SMPP, Email Marketing, SMTP, SMS, Stack Network,
+    Mobile, Technology, SaaS, Enterprise, Telecommunications, API Provider, SMS, Telecommunications,
+    Emails, Messages, Profiles, Service API, Relative Data, Networks
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/sendmsg-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/clickatell/master/_listings/clickatell/sendmsg-get-openapi.md
 x-common:
 - type: x-press
   url: http://americas.clickatell.com/press-release/
 - type: x--net-library
   url: http://americas.clickatell.com/apis-scripts/scripts/c-scripts/
+- type: x-api-gallery
+  url: http://click.meter.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://clickatell.stack.network
 - type: x-base
   url: http://api.clickatell.com
 - type: x-coldfusion-library
